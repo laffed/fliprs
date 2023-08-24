@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = [
+  "blinker"
+]
+
+[workspace.dependencies]
+flipperzero = { version = "0.10.0" }
+flipperzero-sys = { version = "0.10.0" }
+flipperzero-rt = { version = "0.10.0" }
